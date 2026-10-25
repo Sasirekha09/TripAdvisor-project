@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover India's destinations, stays, local food and memorable experiences with Wayfarer India.">
+  <title>Wayfarer India — Discover India, your way</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Wayfarer India home">
+      <span class="brand-mark">W</span>
+      <span>wayfarer<span class="brand-accent">india</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <ul>
+        <li><a href="#destinations">Destinations</a></li>
+        <li><a href="#hotels">Hotels</a></li>
+        <li><a href="#restaurants">Restaurants</a></li>
+        <li><a href="#experiences">Experiences</a></li>
+      </ul>
+    </nav>
+    <a class="header-cta" href="#explore">Plan a trip <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="explore">
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow">THE WORLD, YOUR WAY</p>
+        <h1>Find your next<br><span>Indian escape.</span></h1>
+        <p class="hero-description">From mountain hideaways to coastal escapes, discover local stays, unforgettable food, and stories worth bringing home.</p>
+        <form class="search-panel" action="#destinations" method="get">
+          <label class="search-field">
+            <span class="field-icon" aria-hidden="true">⌖</span>
+            <span class="field-content">
+              <span class="field-label">Where to?</span>
+              <input type="search" name="destination" placeholder="Search Goa, Jaipur, Kerala…" aria-label="Search destinations">
+            </span>
+          </label>
+          <label class="search-field budget-field">
+            <span class="field-icon" aria-hidden="true">₹</span>
+            <span class="field-content">
+              <span class="field-label">Your budget</span>
+              <select name="budget" aria-label="Choose budget">
+                <option value="any">Any budget</option>
+                <option value="budget">Under ₹3,000</option>
+                <option value="mid">₹3,000–₹7,000</option>
+                <option value="premium">₹7,000+</option>
+              </select>
+            </span>
+          </label>
+          <button class="search-button" type="submit">Explore places <span aria-hidden="true">↗</span></button>
+        </form>
+        <div class="hero-note"><span class="note-dot"></span> Local gems. Thoughtful stays. Unforgettable India.</div>
+      </div>
+      <div class="hero-visual">
+        <img src="images/goa-gold-coast.png" alt="Coastal travel scene in India">
+        <div class="hero-image-label">
+          <span class="image-label-kicker">YOUR NEXT CHAPTER</span>
+          <strong>Made for the curious.</strong>
+        </div>
+        <div class="floating-note"><span class="floating-star">✦</span><span><strong>Incredible India</strong><small>One journey at a time</small></span></div>
+      </div>
+    </section>
+
+    <section class="section destinations-section" id="destinations">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">A LITTLE CLOSER TO WONDER</p>
+          <h2>India is full of wonder.</h2>
+        </div>
+        <a class="text-link" href="#hotels">Explore India <span aria-hidden="true">↗</span></a>
+      </div>
+
+      <div class="destination-grid">
+        <a href="#hotels" class="destination-card destination-card-featured">
+          <img class="destination-image" src="images/goa-gold-coast.png" alt="Goa's beach and coastline">
+          <div class="destination-copy">
+            <p>Goa · Sun, sand &amp; slow days</p>
+            <h3>Goa's Golden Coast</h3>
+          </div>
+        </a>
+        <a href="#hotels" class="destination-card">
+          <img class="destination-image" src="images/royal-rajasthan.png" alt="Rajasthan heritage architecture">
+          <div class="destination-copy">
+            <p>Jaipur · Heritage &amp; color</p>
+            <h3>Royal Rajasthan</h3>
+          </div>
+        </a>
+        <a href="#experiences" class="destination-card">
+          <img class="destination-image" src="images/kerala-backwaters.png" alt="Kerala's lush backwaters">
+          <div class="destination-copy">
+            <p>Kerala · Green escapes</p>
+            <h3>Kerala Backwaters</h3>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="section listings-section" id="hotels">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">STAY SOMEWHERE SPECIAL</p>
+          <h2>Rest well, roam more.</h2>
+          <p class="section-description">Thoughtful places to stay, chosen for the feeling as much as the view.</p>
+        </div>
+        <a class="text-link" href="#hotels">Browse Indian stays <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="listing-grid">
+        <article class="listing-card">
+          <div class="listing-photo"><img src="images/haveli-gulab.png" alt="A welcoming boutique stay"></div>
+          <div class="listing-info">
+            <div class="listing-topline"><span class="category-label">HERITAGE STAY</span><span class="rating">★ 4.9</span></div>
+            <h3>Haveli Gulab</h3>
+            <p class="location">Jaipur, Rajasthan</p>
+            <p class="listing-description">A warm haveli-inspired stay close to the old city's color and charm.</p>
+            <div class="listing-bottom"><strong>₹4,200 <small>/ night</small></strong><span class="price-note">Sample price</span></div>
+          </div>
+        </article>
+        <article class="listing-card">
+          <div class="listing-photo"><img src="images/mist-and-munnar.png" alt="Green mountain retreat in Munnar"></div>
+          <div class="listing-info">
+            <div class="listing-topline"><span class="category-label">HILL RETREAT</span><span class="rating">★ 4.8</span></div>
+            <h3>Mist &amp; Munnar</h3>
+            <p class="location">Munnar, Kerala</p>
+            <p class="listing-description">Wake up to rolling tea hills, cool air, and unhurried mornings.</p>
+            <div class="listing-bottom"><strong>₹7,500 <small>/ night</small></strong><span class="price-note">Sample price</span></div>
+          </div>
+        </article>
+        <article class="listing-card">
+          <div class="listing-photo"><img src="images/riverstone-stay.png" alt="Mountain and river landscape near Rishikesh"></div>
+          <div class="listing-info">
+            <div class="listing-topline"><span class="category-label">RIVER ESCAPE</span><span class="rating">★ 4.7</span></div>
+            <h3>Riverstone Stay</h3>
+            <p class="location">Rishikesh, Uttarakhand</p>
+            <p class="listing-description">A relaxed base for riverside walks, mountain views, and fresh air.</p>
+            <div class="listing-bottom"><strong>₹2,400 <small>/ night</small></strong><span class="price-note">Sample price</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="food-band" id="restaurants">
+      <div class="food-band-copy">
+        <p class="eyebrow">A TASTE OF SOMEWHERE</p>
+        <h2>Local flavors,<br>lasting memories.</h2>
+        <p>From sizzling street-side favorites to slow café mornings, find the tables that tell a story about India.</p>
+        <a class="light-link" href="#food-listings">Explore local food <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="food-band-image"><img src="images/thali-and-tadka.png" alt="Indian thali meal with rice and curries"></div>
+    </section>
+
+    <section class="section listings-section food-listings" id="food-listings">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">GOOD FOOD, GOOD STORIES</p>
+          <h2>Pull up a chair.</h2>
+        </div>
+        <a class="text-link" href="#restaurants">Find your next favorite <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="listing-grid">
+        <article class="listing-card">
+          <div class="listing-photo"><img src="images/coastal-curry-house.png" alt="Grilled Indian tandoori food"></div>
+          <div class="listing-info">
+            <div class="listing-topline"><span class="category-label">LOCAL FAVORITE</span><span class="rating">★ 4.9</span></div>
+            <h3>Coastal Curry House</h3>
+            <p class="location">Goa, India</p>
+            <p class="listing-description">Smoky tandoor favorites and bright coastal flavors in a lively setting.</p>
+            <div class="listing-bottom"><strong>₹₹ <small>/ meal</small></strong><span class="price-note">Sample listing</span></div>
+          </div>
+        </article>
+        <article class="listing-card">
+          <div class="listing-photo"><img src="images/thali-and-tadka.png" alt="Traditional Indian thali with several dishes"></div>
+          <div class="listing-info">
+            <div class="listing-topline"><span class="category-label">REGIONAL CUISINE</span><span class="rating">★ 4.8</span></div>
+            <h3>Thali &amp; Tadka</h3>
+            <p class="location">Jaipur, Rajasthan</p>
+            <p class="listing-description">A generous thali full of comforting regional dishes and spices.</p>
+            <div class="listing-bottom"><strong>₹₹ <small>/ meal</small></strong><span class="price-note">Sample listing</span></div>
+          </div>
+        </article>
+        <article class="listing-card">
+          <div class="listing-photo"><img src="images/filter-coffee-club.png" alt="A cozy cafe interior"></div>
+          <div class="listing-info">
+            <div class="listing-topline"><span class="category-label">CAFÉ &amp; BRUNCH</span><span class="rating">★ 4.7</span></div>
+            <h3>Filter Coffee Club</h3>
+            <p class="location">Bengaluru, Karnataka</p>
+            <p class="listing-description">South Indian filter coffee, fresh snacks, and slow mornings.</p>
+            <div class="listing-bottom"><strong>₹₹ <small>/ visit</small></strong><span class="price-note">Sample listing</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="experience-section" id="experiences">
+      <div class="experience-copy">
+        <p class="eyebrow">GO BEYOND THE CHECKLIST</p>
+        <h2>Find an experience<br>that feels like you.</h2>
+        <p>For curious travelers discovering India's colors, flavors, landscapes, and local stories.</p>
+        <a class="button button-dark" href="#destinations">Find your next adventure <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="experience-image"><img src="images/kerala-backwaters.png" alt="A peaceful green Indian travel landscape"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#"><span class="brand-mark">W</span><span>wayfarer<span class="brand-accent">india</span></span></a>
+    <p>Go thoughtfully. Come back with stories.</p>
+    <span class="footer-copyright">© 2026 Wayfarer India. A fictional demo brand.</span>
+  </footer>
+</body>
+</html>
